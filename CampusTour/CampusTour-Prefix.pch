@@ -1,0 +1,55 @@
+//
+// Prefix header for all source files of the 'CampusTour' target in the 'CampusTour' project
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_5_0
+#warning "This project uses features only available in iOS SDK 5.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+    #import <CoreData/CoreData.h>
+#endif
+
+// CoreData Entity Constants
+#define S_ENTITY_BUILDING @"Building"
+#define S_ENTITY_EVENT @"Event"
+
+#define S_BUILDING_LATITUDE @"latitude"
+#define S_BUILDING_LONGITUDE @"longitude"
+#define S_BUILDING_NAME @"name"
+#define S_BUILDING_OPP_CODE @"oppCode"
+#define S_BUILDING_YEAR @"year_constructed"
+
+#define S_EVENT_CONTRIBUTOR @"contributor"
+#define S_EVENT_CREATOR @"creator"
+#define S_EVENT_DATE @"date"
+#define S_EVENT_PHOTOGRAPHED @"datePhotographed"
+#define S_EVENT_DESCRIPTION @"desc"
+#define S_EVENT_IMAGE_URL @"imageURL"
+#define S_EVENT_SUB_TITLE @"subTitle"
+#define S_EVENT_TITLE @"title"
+#define S_EVENT_TYPE @"type"
+
+// MapView Constants
+#define RI_BLDG_PIN @"BldgPin"
+
+// Notification Center constants
+#define NC_BLDG_DATA_DOWNLOADED @"BldgDataDownloaded"
+
+// PSU Campus Centroid Constants
+#define N_LAT_UP 40.807169
+#define N_LON_UP -77.86249
+
+// PSU Campus Span constants
+#define N_SPAN_LAT_UP 0.044113/2.0
+#define N_SPAN_LON_UP 0.068665/2.0
+
+// PSU Web Service Constants
+#define S_PSU_KEY_LAT @"latitude"
+#define S_PSU_KEY_LON @"longitude"
+#define S_PSU_KEY_NAME @"name"
+#define S_PSU_KEY_OPP @"opp_bldg_code"

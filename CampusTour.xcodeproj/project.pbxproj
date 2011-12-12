@@ -1,0 +1,399 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9408826514572A70004D4DF9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9408826414572A70004D4DF9 /* UIKit.framework */; };
+		9408826714572A70004D4DF9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9408826614572A70004D4DF9 /* Foundation.framework */; };
+		9408826914572A70004D4DF9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9408826814572A70004D4DF9 /* CoreGraphics.framework */; };
+		9408826B14572A70004D4DF9 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9408826A14572A70004D4DF9 /* CoreData.framework */; };
+		9408827114572A70004D4DF9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9408826F14572A70004D4DF9 /* InfoPlist.strings */; };
+		9408827314572A70004D4DF9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9408827214572A70004D4DF9 /* main.m */; };
+		9408827714572A70004D4DF9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9408827614572A70004D4DF9 /* AppDelegate.m */; };
+		9408827A14572A70004D4DF9 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9408827814572A70004D4DF9 /* MainStoryboard.storyboard */; };
+		9408827D14572A70004D4DF9 /* CampusTour.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9408827B14572A70004D4DF9 /* CampusTour.xcdatamodeld */; };
+		9408828014572A70004D4DF9 /* BuildingInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9408827F14572A70004D4DF9 /* BuildingInfoViewController.m */; };
+		9408828314572A70004D4DF9 /* EventDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9408828214572A70004D4DF9 /* EventDetailViewController.m */; };
+		942005F2148B1ACA009E0507 /* hexagons.kml in Resources */ = {isa = PBXBuildFile; fileRef = 942005F1148B1ACA009E0507 /* hexagons.kml */; };
+		942005F5148B1F55009E0507 /* KMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 942005F4148B1F55009E0507 /* KMLParser.m */; };
+		9425CB2D147C8AF800DA8311 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9425CB2C147C8AF800DA8311 /* MapViewController.m */; };
+		9425CB32147C8C1000DA8311 /* CampusTourModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9425CB31147C8C1000DA8311 /* CampusTourModel.m */; };
+		944DB5ED14913AF300E40C47 /* events.xml in Resources */ = {isa = PBXBuildFile; fileRef = 944DB5EC14913AF300E40C47 /* events.xml */; };
+		944DB5F014913B0900E40C47 /* buildings.json in Resources */ = {isa = PBXBuildFile; fileRef = 944DB5EF14913B0900E40C47 /* buildings.json */; };
+		948B2496147D4D5F00BDE614 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 948B2495147D4D5F00BDE614 /* MapKit.framework */; };
+		948B2498147D52BB00BDE614 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 948B2497147D52BB00BDE614 /* CoreLocation.framework */; };
+		94BDE6141495566200ED49B4 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 94BDE6131495566200ED49B4 /* Icon.png */; };
+		94BDE6171495566800ED49B4 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 94BDE6161495566800ED49B4 /* Icon@2x.png */; };
+		94BDE61914955A5500ED49B4 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 94BDE61814955A5500ED49B4 /* Default.png */; };
+		94BDE61B14955A6800ED49B4 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 94BDE61A14955A6800ED49B4 /* Default@2x.png */; };
+		94F736F3148A913D00AD6861 /* Event.m in Sources */ = {isa = PBXBuildFile; fileRef = 94F736F2148A913D00AD6861 /* Event.m */; };
+		94F736F7148A913D00AD6861 /* Building.m in Sources */ = {isa = PBXBuildFile; fileRef = 94F736F6148A913D00AD6861 /* Building.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9408826014572A70004D4DF9 /* CampusTour.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CampusTour.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9408826414572A70004D4DF9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9408826614572A70004D4DF9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9408826814572A70004D4DF9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9408826A14572A70004D4DF9 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		9408826E14572A70004D4DF9 /* CampusTour-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CampusTour-Info.plist"; sourceTree = "<group>"; };
+		9408827014572A70004D4DF9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9408827214572A70004D4DF9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9408827414572A70004D4DF9 /* CampusTour-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CampusTour-Prefix.pch"; sourceTree = "<group>"; };
+		9408827514572A70004D4DF9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9408827614572A70004D4DF9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9408827914572A70004D4DF9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		9408827C14572A70004D4DF9 /* CampusTour.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CampusTour.xcdatamodel; sourceTree = "<group>"; };
+		9408827E14572A70004D4DF9 /* BuildingInfoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BuildingInfoViewController.h; sourceTree = "<group>"; };
+		9408827F14572A70004D4DF9 /* BuildingInfoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BuildingInfoViewController.m; sourceTree = "<group>"; };
+		9408828114572A70004D4DF9 /* EventDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EventDetailViewController.h; sourceTree = "<group>"; };
+		9408828214572A70004D4DF9 /* EventDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EventDetailViewController.m; sourceTree = "<group>"; };
+		942005F1148B1ACA009E0507 /* hexagons.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = hexagons.kml; sourceTree = "<group>"; };
+		942005F3148B1F55009E0507 /* KMLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KMLParser.h; sourceTree = "<group>"; };
+		942005F4148B1F55009E0507 /* KMLParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KMLParser.m; sourceTree = "<group>"; };
+		9425CB2B147C8AF800DA8311 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		9425CB2C147C8AF800DA8311 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		9425CB30147C8C1000DA8311 /* CampusTourModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CampusTourModel.h; sourceTree = "<group>"; };
+		9425CB31147C8C1000DA8311 /* CampusTourModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CampusTourModel.m; sourceTree = "<group>"; };
+		944DB5EC14913AF300E40C47 /* events.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = events.xml; sourceTree = "<group>"; };
+		944DB5EF14913B0900E40C47 /* buildings.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = buildings.json; sourceTree = "<group>"; };
+		948B2495147D4D5F00BDE614 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		948B2497147D52BB00BDE614 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		94BDE6131495566200ED49B4 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		94BDE6161495566800ED49B4 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		94BDE61814955A5500ED49B4 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		94BDE61A14955A6800ED49B4 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		94F736F1148A913D00AD6861 /* Event.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Event.h; sourceTree = "<group>"; };
+		94F736F2148A913D00AD6861 /* Event.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Event.m; sourceTree = "<group>"; };
+		94F736F5148A913D00AD6861 /* Building.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Building.h; sourceTree = "<group>"; };
+		94F736F6148A913D00AD6861 /* Building.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Building.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9408825D14572A70004D4DF9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				948B2498147D52BB00BDE614 /* CoreLocation.framework in Frameworks */,
+				948B2496147D4D5F00BDE614 /* MapKit.framework in Frameworks */,
+				9408826514572A70004D4DF9 /* UIKit.framework in Frameworks */,
+				9408826714572A70004D4DF9 /* Foundation.framework in Frameworks */,
+				9408826914572A70004D4DF9 /* CoreGraphics.framework in Frameworks */,
+				9408826B14572A70004D4DF9 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9408825514572A6F004D4DF9 = {
+			isa = PBXGroup;
+			children = (
+				94BDE61A14955A6800ED49B4 /* Default@2x.png */,
+				94BDE61814955A5500ED49B4 /* Default.png */,
+				94BDE6161495566800ED49B4 /* Icon@2x.png */,
+				94BDE6131495566200ED49B4 /* Icon.png */,
+				948B2497147D52BB00BDE614 /* CoreLocation.framework */,
+				948B2495147D4D5F00BDE614 /* MapKit.framework */,
+				9408826C14572A70004D4DF9 /* CampusTour */,
+				9408826314572A70004D4DF9 /* Frameworks */,
+				9408826114572A70004D4DF9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9408826114572A70004D4DF9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9408826014572A70004D4DF9 /* CampusTour.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9408826314572A70004D4DF9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9408826414572A70004D4DF9 /* UIKit.framework */,
+				9408826614572A70004D4DF9 /* Foundation.framework */,
+				9408826814572A70004D4DF9 /* CoreGraphics.framework */,
+				9408826A14572A70004D4DF9 /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9408826C14572A70004D4DF9 /* CampusTour */ = {
+			isa = PBXGroup;
+			children = (
+				9425CB2F147C8B2300DA8311 /* Models */,
+				9425CB2E147C8B0F00DA8311 /* Delegates */,
+				9425CB2A147C8AC300DA8311 /* View Controllers */,
+				9408827814572A70004D4DF9 /* MainStoryboard.storyboard */,
+				9408827B14572A70004D4DF9 /* CampusTour.xcdatamodeld */,
+				9408826D14572A70004D4DF9 /* Supporting Files */,
+			);
+			path = CampusTour;
+			sourceTree = "<group>";
+		};
+		9408826D14572A70004D4DF9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				944DB5EF14913B0900E40C47 /* buildings.json */,
+				944DB5EC14913AF300E40C47 /* events.xml */,
+				942005F1148B1ACA009E0507 /* hexagons.kml */,
+				9408826E14572A70004D4DF9 /* CampusTour-Info.plist */,
+				9408826F14572A70004D4DF9 /* InfoPlist.strings */,
+				9408827214572A70004D4DF9 /* main.m */,
+				9408827414572A70004D4DF9 /* CampusTour-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9425CB2A147C8AC300DA8311 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				9408827E14572A70004D4DF9 /* BuildingInfoViewController.h */,
+				9408827F14572A70004D4DF9 /* BuildingInfoViewController.m */,
+				9408828114572A70004D4DF9 /* EventDetailViewController.h */,
+				9408828214572A70004D4DF9 /* EventDetailViewController.m */,
+				9425CB2B147C8AF800DA8311 /* MapViewController.h */,
+				9425CB2C147C8AF800DA8311 /* MapViewController.m */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		9425CB2E147C8B0F00DA8311 /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				9408827514572A70004D4DF9 /* AppDelegate.h */,
+				9408827614572A70004D4DF9 /* AppDelegate.m */,
+			);
+			name = Delegates;
+			sourceTree = "<group>";
+		};
+		9425CB2F147C8B2300DA8311 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				942005F3148B1F55009E0507 /* KMLParser.h */,
+				942005F4148B1F55009E0507 /* KMLParser.m */,
+				94F736F5148A913D00AD6861 /* Building.h */,
+				94F736F6148A913D00AD6861 /* Building.m */,
+				94F736F1148A913D00AD6861 /* Event.h */,
+				94F736F2148A913D00AD6861 /* Event.m */,
+				9425CB30147C8C1000DA8311 /* CampusTourModel.h */,
+				9425CB31147C8C1000DA8311 /* CampusTourModel.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9408825F14572A70004D4DF9 /* CampusTour */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9408828614572A70004D4DF9 /* Build configuration list for PBXNativeTarget "CampusTour" */;
+			buildPhases = (
+				9408825C14572A70004D4DF9 /* Sources */,
+				9408825D14572A70004D4DF9 /* Frameworks */,
+				9408825E14572A70004D4DF9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CampusTour;
+			productName = CampusTour;
+			productReference = 9408826014572A70004D4DF9 /* CampusTour.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9408825714572A6F004D4DF9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 9408825A14572A6F004D4DF9 /* Build configuration list for PBXProject "CampusTour" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9408825514572A6F004D4DF9;
+			productRefGroup = 9408826114572A70004D4DF9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9408825F14572A70004D4DF9 /* CampusTour */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9408825E14572A70004D4DF9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9408827114572A70004D4DF9 /* InfoPlist.strings in Resources */,
+				9408827A14572A70004D4DF9 /* MainStoryboard.storyboard in Resources */,
+				942005F2148B1ACA009E0507 /* hexagons.kml in Resources */,
+				944DB5ED14913AF300E40C47 /* events.xml in Resources */,
+				944DB5F014913B0900E40C47 /* buildings.json in Resources */,
+				94BDE6141495566200ED49B4 /* Icon.png in Resources */,
+				94BDE6171495566800ED49B4 /* Icon@2x.png in Resources */,
+				94BDE61914955A5500ED49B4 /* Default.png in Resources */,
+				94BDE61B14955A6800ED49B4 /* Default@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9408825C14572A70004D4DF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9408827314572A70004D4DF9 /* main.m in Sources */,
+				9408827714572A70004D4DF9 /* AppDelegate.m in Sources */,
+				9408827D14572A70004D4DF9 /* CampusTour.xcdatamodeld in Sources */,
+				9408828014572A70004D4DF9 /* BuildingInfoViewController.m in Sources */,
+				9408828314572A70004D4DF9 /* EventDetailViewController.m in Sources */,
+				9425CB2D147C8AF800DA8311 /* MapViewController.m in Sources */,
+				9425CB32147C8C1000DA8311 /* CampusTourModel.m in Sources */,
+				94F736F3148A913D00AD6861 /* Event.m in Sources */,
+				94F736F7148A913D00AD6861 /* Building.m in Sources */,
+				942005F5148B1F55009E0507 /* KMLParser.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9408826F14572A70004D4DF9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9408827014572A70004D4DF9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9408827814572A70004D4DF9 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9408827914572A70004D4DF9 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9408828414572A70004D4DF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9408828514572A70004D4DF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9408828714572A70004D4DF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CampusTour/CampusTour-Prefix.pch";
+				INFOPLIST_FILE = "CampusTour/CampusTour-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9408828814572A70004D4DF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CampusTour/CampusTour-Prefix.pch";
+				INFOPLIST_FILE = "CampusTour/CampusTour-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9408825A14572A6F004D4DF9 /* Build configuration list for PBXProject "CampusTour" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9408828414572A70004D4DF9 /* Debug */,
+				9408828514572A70004D4DF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9408828614572A70004D4DF9 /* Build configuration list for PBXNativeTarget "CampusTour" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9408828714572A70004D4DF9 /* Debug */,
+				9408828814572A70004D4DF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		9408827B14572A70004D4DF9 /* CampusTour.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				9408827C14572A70004D4DF9 /* CampusTour.xcdatamodel */,
+			);
+			currentVersion = 9408827C14572A70004D4DF9 /* CampusTour.xcdatamodel */;
+			path = CampusTour.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 9408825714572A6F004D4DF9 /* Project object */;
+}

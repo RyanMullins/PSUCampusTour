@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<Style id="transBluePoly">
+    <LineStyle>
+        <width>4</width>
+    </LineStyle>
+    <PolyStyle>
+        <color>7dff0000</color>
+    </PolyStyle>
+</Style>
+<Placemark>
+    <name>Hexagon1</name>
+    <styleUrl>#transBluePoly</styleUrl>
+    <Polygon>
+        <altitudeMode>clampToGround</altitudeMode>
+        <outerBoundaryIs><LinearRing><coordinates>
+            -77.870897001138,40.7933207724965 -77.869001951138,40.7900384496136 -77.870897001138,40.7867561267307 -77.874687101138,40.7867561267307 -77.876582151138,40.7900384496136 -77.874687101138,40.7933207724965 -77.870897001138,40.7933207724965
+        </coordinates></LinearRing></outerBoundaryIs>
+    </Polygon>
+</Placemark>
+<Placemark>
+    <name>Hexagon2</name>
+    <styleUrl>#transBluePoly</styleUrl>
+    <Polygon>
+        <altitudeMode>clampToGround</altitudeMode>
+        <outerBoundaryIs><LinearRing><coordinates>
+            -77.870897001138,40.799886977108 -77.869001951138,40.7966046542251 -77.870897001138,40.7933223313422 -77.874687101138,40.7933223313422 -77.876582151138,40.7966046542251 -77.874687101138,40.799886977108 -77.870897001138,40.799886977108
+        </coordinates></LinearRing></outerBoundaryIs>
+    </Polygon>
+</Placemark>
+<Placemark>
+    <name>Hexagon3</name>
+    <styleUrl>#transBluePoly</styleUrl>
+    <Polygon>
+        <altitudeMode>clampToGround</altitudeMode>
+        <outerBoundaryIs><LinearRing><coordinates>
+            -77.865210501138,40.7966038748022 -77.863315451138,40.7933215519193 -77.865210501138,40.7900392290364 -77.869000601138,40.7900392290364 -77.870895651138,40.7933215519193 -77.869000601138,40.7966038748022 -77.865210501138,40.7966038748022
+        </coordinates></LinearRing></outerBoundaryIs>
+    </Polygon>
+</Placemark>
+<Placemark>
+    <name>Hexagon4</name>
+    <styleUrl>#transBluePoly</styleUrl>
+    <Polygon>
+        <altitudeMode>clampToGround</altitudeMode>
+        <outerBoundaryIs><LinearRing><coordinates>
+            -77.870897001138,40.8064531817195 -77.869001951138,40.8031708588366 -77.870897001138,40.7998885359537 -77.874687101138,40.7998885359537 -77.876582151138,40.8031708588366 -77.874687101138,40.8064531817195 -77.870897001138,40.8064531817195
+        </coordinates></LinearRing></outerBoundaryIs>
+    </Polygon>
+</Placemark>
+<Placemark>
+    <name>Hexagon5</name>
+    <styleUrl>#transBluePoly</styleUrl>
+    <Polygon>
+        <altitudeMode>clampToGround</altitudeMode>
+        <outerBoundaryIs><LinearRing><coordinates>
+            -77.865210501138,40.8031700794137 -77.863315451138,40.7998877565308 -77.865210501138,40.7966054336479 -77.869000601138,40.7966054336479 -77.870895651138,40.7998877565308 -77.869000601138,40.8031700794137 -77.865210501138,40.8031700794137
+        </coordinates></LinearRing></outerBoundaryIs>
+    </Polygon>
+</Placemark>
+<Placemark>
+    <name>Hexagon6</name>
+    <styleUrl>#transBluePoly</styleUrl>
+    <Polygon>
+        <altitudeMode>clampToGround</altitudeMode>
+        <outerBoundaryIs><LinearRing><coordinates>
+            -77.859524001138,40.7998869771079 -77.857628951138,40.796604654225 -77.859524001138,40.7933223313421 -77.863314101138,40.7933223313421 -77.865209151138,40.796604654225 -77.863314101138,40.7998869771079 -77.859524001138,40.7998869771079
+        </coordinates></LinearRing></outerBoundaryIs>
+    </Polygon>
+</Placemark>
+<Placemark>
+    <name>Hexagon7</name>
+    <styleUrl>#transBluePoly</styleUrl>
+    <Polygon>
+        <altitudeMode>clampToGround</altitudeMode>
+        <outerBoundaryIs><LinearRing><coordinates>
+            -77.870897001138,40.813019386331 -77.869001951138,40.8097370634481 -77.870897001138,40.8064547405652 -77.874687101138,40.8064547405652 -77.876582151138,40.8097370634481 -77.874687101138,40.813019386331 -77.870897001138,40.813019386331
+        </coordinates></LinearRing></outerBoundaryIs>
+    </Polygon>
+</Placemark>
+<Placemark>
+    <name>Hexagon8</name>
+    <styleUrl>#transBluePoly</styleUrl>
+    <Polygon>
+        <altitudeMode>clampToGround</altitudeMode>
+        <outerBoundaryIs><LinearRing><coordinates>
+            -77.865210501138,40.8097362840252 -77.863315451138,40.8064539611423 -77.865210501138,40.8031716382594 -77.869000601138,40.8031716382594 -77.870895651138,40.8064539611423 -77.869000601138,40.8097362840252 -77.865210501138,40.8097362840252
+        </coordinates></LinearRing></outerBoundaryIs>
+    </Polygon>
+</Placemark>
+<Placemark>
+    <name>Hexagon9</name>
+    <styleUrl>#transBluePoly</styleUrl>
+    <Polygon>
+        <altitudeMode>clampToGround</altitudeMode>
+        <outerBoundaryIs><LinearRing><coordinates>
+            -77.859524001138,40.8064531817194 -77.857628951138,40.8031708588365 -77.859524001138,40.7998885359536 -77.863314101138,40.7998885359536 -77.865209151138,40.8031708588365 -77.863314101138,40.8064531817194 -77.859524001138,40.8064531817194
+        </coordinates></LinearRing></outerBoundaryIs>
+    </Polygon>
+</Placemark>
+<Placemark>
+    <name>Hexagon10</name>
+    <styleUrl>#transBluePoly</styleUrl>
+    <Polygon>
+        <altitudeMode>clampToGround</altitudeMode>
+        <outerBoundaryIs><LinearRing><coordinates>
+            -77.853837501138,40.8031700794136 -77.851942451138,40.7998877565307 -77.853837501138,40.7966054336478 -77.857627601138,40.7966054336478 -77.859522651138,40.7998877565307 -77.857627601138,40.8031700794136 -77.853837501138,40.8031700794136
+        </coordinates></LinearRing></outerBoundaryIs>
+    </Polygon>
+</Placemark>
+<Placemark>
+    <name>Hexagon11</name>
+    <styleUrl>#transBluePoly</styleUrl>
+    <Polygon>
+        <altitudeMode>clampToGround</altitudeMode>
+        <outerBoundaryIs><LinearRing><coordinates>
+            -77.865210501138,40.8163024886367 -77.863315451138,40.8130201657538 -77.865210501138,40.8097378428709 -77.869000601138,40.8097378428709 -77.870895651138,40.8130201657538 -77.869000601138,40.8163024886367 -77.865210501138,40.8163024886367
+        </coordinates></LinearRing></outerBoundaryIs>
+    </Polygon>
+</Placemark>
+<Placemark>
+    <name>Hexagon12</name>
+    <styleUrl>#transBluePoly</styleUrl>
+    <Polygon>
+        <altitudeMode>clampToGround</altitudeMode>
+        <outerBoundaryIs><LinearRing><coordinates>
+            -77.859524001138,40.8130193863309 -77.857628951138,40.809737063448 -77.859524001138,40.8064547405651 -77.863314101138,40.8064547405651 -77.865209151138,40.809737063448 -77.863314101138,40.8130193863309 -77.859524001138,40.8130193863309
+        </coordinates></LinearRing></outerBoundaryIs>
+    </Polygon>
+</Placemark>
+<Placemark>
+    <name>Hexagon13</name>
+    <styleUrl>#transBluePoly</styleUrl>
+    <Polygon>
+        <altitudeMode>clampToGround</altitudeMode>
+        <outerBoundaryIs><LinearRing><coordinates>
+            -77.853837501138,40.8097362840251 -77.851942451138,40.8064539611422 -77.853837501138,40.8031716382593 -77.857627601138,40.8031716382593 -77.859522651138,40.8064539611422 -77.857627601138,40.8097362840251 -77.853837501138,40.8097362840251
+        </coordinates></LinearRing></outerBoundaryIs>
+    </Polygon>
+</Placemark>
+<Placemark>
+    <name>Hexagon14</name>
+    <styleUrl>#transBluePoly</styleUrl>
+    <Polygon>
+        <altitudeMode>clampToGround</altitudeMode>
+        <outerBoundaryIs><LinearRing><coordinates>
+            -77.848151001138,40.8064531817193 -77.846255951138,40.8031708588364 -77.848151001138,40.7998885359535 -77.851941101138,40.7998885359535 -77.853836151138,40.8031708588364 -77.851941101138,40.8064531817193 -77.848151001138,40.8064531817193
+        </coordinates></LinearRing></outerBoundaryIs>
+    </Polygon>
+</Placemark>
+<Placemark>
+    <name>Hexagon15</name>
+    <styleUrl>#transBluePoly</styleUrl>
+    <Polygon>
+        <altitudeMode>clampToGround</altitudeMode>
+        <outerBoundaryIs><LinearRing><coordinates>
+            -77.859524001138,40.8195855909424 -77.857628951138,40.8163032680595 -77.859524001138,40.8130209451766 -77.863314101138,40.8130209451766 -77.865209151138,40.8163032680595 -77.863314101138,40.8195855909424 -77.859524001138,40.8195855909424
+        </coordinates></LinearRing></outerBoundaryIs>
+    </Polygon>
+</Placemark>
+<Placemark>
+    <name>Hexagon16</name>
+    <styleUrl>#transBluePoly</styleUrl>
+    <Polygon>
+        <altitudeMode>clampToGround</altitudeMode>
+        <outerBoundaryIs><LinearRing><coordinates>
+            -77.853837501138,40.8163024886366 -77.851942451138,40.8130201657537 -77.853837501138,40.8097378428708 -77.857627601138,40.8097378428708 -77.859522651138,40.8130201657537 -77.857627601138,40.8163024886366 -77.853837501138,40.8163024886366
+        </coordinates></LinearRing></outerBoundaryIs>
+    </Polygon>
+</Placemark>
+<Placemark>
+    <name>Hexagon17</name>
+    <styleUrl>#transBluePoly</styleUrl>
+    <Polygon>
+        <altitudeMode>clampToGround</altitudeMode>
+        <outerBoundaryIs><LinearRing><coordinates>
+            -77.848151001138,40.8130193863308 -77.846255951138,40.8097370634479 -77.848151001138,40.806454740565 -77.851941101138,40.806454740565 -77.853836151138,40.8097370634479 -77.851941101138,40.8130193863308 -77.848151001138,40.8130193863308
+        </coordinates></LinearRing></outerBoundaryIs>
+    </Polygon>
+</Placemark>
+<Placemark>
+    <name>Hexagon18</name>
+    <styleUrl>#transBluePoly</styleUrl>
+    <Polygon>
+        <altitudeMode>clampToGround</altitudeMode>
+        <outerBoundaryIs><LinearRing><coordinates>
+            -77.842464501138,40.809736284025 -77.840569451138,40.8064539611421 -77.842464501138,40.8031716382592 -77.846254601138,40.8031716382592 -77.848149651138,40.8064539611421 -77.846254601138,40.809736284025 -77.842464501138,40.809736284025
+        </coordinates></LinearRing></outerBoundaryIs>
+    </Polygon>
+</Placemark>
+<Placemark>
+    <name>Hexagon19</name>
+    <styleUrl>#transBluePoly</styleUrl>
+    <Polygon>
+        <altitudeMode>clampToGround</altitudeMode>
+        <outerBoundaryIs><LinearRing><coordinates>
+            -77.853837501138,40.8228686932481 -77.851942451138,40.8195863703652 -77.853837501138,40.8163040474823 -77.857627601138,40.8163040474823 -77.859522651138,40.8195863703652 -77.857627601138,40.8228686932481 -77.853837501138,40.8228686932481
+        </coordinates></LinearRing></outerBoundaryIs>
+    </Polygon>
+</Placemark>
+<Placemark>
+    <name>Hexagon20</name>
+    <styleUrl>#transBluePoly</styleUrl>
+    <Polygon>
+        <altitudeMode>clampToGround</altitudeMode>
+        <outerBoundaryIs><LinearRing><coordinates>
+            -77.848151001138,40.8327180001653 -77.846255951138,40.8294356772824 -77.848151001138,40.8261533543995 -77.851941101138,40.8261533543995 -77.853836151138,40.8294356772824 -77.851941101138,40.8327180001653 -77.848151001138,40.8327180001653
+        </coordinates></LinearRing></outerBoundaryIs>
+    </Polygon>
+</Placemark>
+<Placemark>
+    <name>Hexagon21</name>
+    <styleUrl>#transBluePoly</styleUrl>
+    <Polygon>
+        <altitudeMode>clampToGround</altitudeMode>
+        <outerBoundaryIs><LinearRing><coordinates>
+            -77.842464501138,40.836001102471 -77.840569451138,40.8327187795881 -77.842464501138,40.8294364567052 -77.846254601138,40.8294364567052 -77.848149651138,40.8327187795881 -77.846254601138,40.836001102471 -77.842464501138,40.836001102471
+        </coordinates></LinearRing></outerBoundaryIs>
+    </Polygon>
+</Placemark>
+</Document></kml>

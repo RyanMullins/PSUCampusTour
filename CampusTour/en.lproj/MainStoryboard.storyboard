@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="1.0" toolsVersion="1938" systemVersion="11C74" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="BQQ-rF-9hL">
+    <dependencies>
+        <development defaultVersion="4200" identifier="xcode"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="933"/>
+    </dependencies>
+    <scenes>
+        <scene sceneID="sge-pJ-ptG">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Dal-DV-J4t" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController id="M1l-Im-fVd" userLabel="mapView" customClass="MapViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="2Z7-dw-hTg">
+                        <rect key="frame" x="0.0" y="64" width="320" height="416"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" id="3Zf-eg-Xwj" userLabel="mapView">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="416"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outlet property="delegate" destination="M1l-Im-fVd" id="fg6-WX-oj5"/>
+                                    <outletCollection property="gestureRecognizers" destination="1A1-Pt-eTi" appends="YES" id="kYL-dp-Dlz"/>
+                                </connections>
+                            </mapView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Root View Controller" id="mgf-OB-0P4"/>
+                    <connections>
+                        <outlet property="myMapView" destination="3Zf-eg-Xwj" id="9lt-d3-U7Z"/>
+                        <outlet property="myTapGestureRecognizer" destination="1A1-Pt-eTi" id="x51-Fk-c34"/>
+                        <segue destination="jS4-bY-hRW" kind="push" identifier="mapToBuilding" id="9pF-gW-f6m"/>
+                    </connections>
+                </viewController>
+                <tapGestureRecognizer numberOfTapsRequired="2" id="1A1-Pt-eTi">
+                    <connections>
+                        <action selector="hexagonTapToZoom:" destination="M1l-Im-fVd" id="AKm-Um-II2"/>
+                        <outlet property="delegate" destination="M1l-Im-fVd" id="6Vx-QM-vNg"/>
+                    </connections>
+                </tapGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="354" y="9"/>
+        </scene>
+        <scene sceneID="g6c-86-9D6">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bZs-9D-rYI" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <tableViewController id="jS4-bY-hRW" customClass="BuildingInfoViewController" sceneMemberID="viewController">
+                    <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" separatorStyle="singleLineEtched" rowHeight="44" sectionHeaderHeight="10" sectionFooterHeight="10" id="9Yp-7n-owz">
+                        <rect key="frame" x="0.0" y="64" width="320" height="416"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" shouldIndentWhileEditing="NO" reuseIdentifier="eventCell" textLabel="hcx-9h-hBS" detailTextLabel="54D-cc-8dY" rowHeight="60" style="IBUITableViewCellStyleSubtitle" id="LFJ-EK-EXr">
+                                <rect key="frame" x="0.0" y="46" width="320" height="62"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                    <rect key="frame" x="10" y="1" width="280" height="59"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" text="Title" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="hcx-9h-hBS">
+                                            <rect key="frame" x="10" y="10" width="38" height="22"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <color key="highlightedColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        </label>
+                                        <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" text="Detail" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="54D-cc-8dY">
+                                            <rect key="frame" x="10" y="32" width="36" height="18"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                            <color key="textColor" red="0.50196078431372548" green="0.50196078431372548" blue="0.50196078431372548" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="highlightedColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        </label>
+                                    </subviews>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </view>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="jS4-bY-hRW" id="UEk-d6-1iB"/>
+                            <outlet property="delegate" destination="jS4-bY-hRW" id="Kd4-A4-YPD"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" id="8AV-bG-cyE"/>
+                    <connections>
+                        <segue destination="4MA-4E-vJM" kind="push" identifier="buildingToEvent" id="hdk-e8-pxo"/>
+                    </connections>
+                </tableViewController>
+            </objects>
+            <point key="canvasLocation" x="791" y="9"/>
+        </scene>
+        <scene sceneID="iv9-Ws-nC8">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pVL-lr-xBl" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController id="4MA-4E-vJM" customClass="EventDetailViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="JGT-J3-hL8">
+                        <rect key="frame" x="0.0" y="64" width="320" height="416"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView multipleTouchEnabled="YES" contentMode="scaleAspectFit" id="7r8-4I-dHm">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="416"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="IYx-SY-xcQ" appends="YES" id="o2f-sg-M0a"/>
+                                </connections>
+                            </imageView>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" indicatorStyle="black" id="deD-UA-nDL">
+                                <rect key="frame" x="0.0" y="108" width="320" height="200"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="wl8-Nw-OMO"/>
+                    <connections>
+                        <outlet property="imageView" destination="7r8-4I-dHm" id="fGe-iv-6rw"/>
+                        <outlet property="scrollView" destination="deD-UA-nDL" id="FHY-4a-Zpf"/>
+                        <outlet property="tapGestureRecognizer" destination="IYx-SY-xcQ" id="dMJ-Sv-4vJ"/>
+                    </connections>
+                </viewController>
+                <tapGestureRecognizer id="IYx-SY-xcQ">
+                    <connections>
+                        <action selector="handleTapGetsure:" destination="4MA-4E-vJM" id="NvM-9I-z1f"/>
+                        <outlet property="delegate" destination="4MA-4E-vJM" id="roB-KY-EYT"/>
+                    </connections>
+                </tapGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="1216" y="9"/>
+        </scene>
+        <scene sceneID="tFV-Tw-4sm">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rI4-s1-ZOu" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <navigationController definesPresentationContext="YES" id="BQQ-rF-9hL" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="9t3-u9-ce9">
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="tintColor" red="0.0071268619162641869" green="0.07240794445066169" blue="0.57727581521739135" alpha="1" colorSpace="calibratedRGB"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="M1l-Im-fVd" kind="relationship" relationship="rootViewController" id="CiS-xW-msa"/>
+                    </connections>
+                </navigationController>
+            </objects>
+            <point key="canvasLocation" x="-106" y="9"/>
+        </scene>
+    </scenes>
+    <classes>
+        <class className="BuildingInfoViewController" superclassName="UITableViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/BuildingInfoViewController.h"/>
+        </class>
+        <class className="EventDetailViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/EventDetailViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="handleTapGetsure:" candidateClass="UITapGestureRecognizer"/>
+                <relationship kind="outlet" name="imageView" candidateClass="UIImageView"/>
+                <relationship kind="outlet" name="scrollView" candidateClass="UIScrollView"/>
+                <relationship kind="outlet" name="tapGestureRecognizer" candidateClass="UITapGestureRecognizer"/>
+            </relationships>
+        </class>
+        <class className="MapViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/MapViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="hexagonTapToZoom:" candidateClass="UITapGestureRecognizer"/>
+                <relationship kind="outlet" name="myMapView" candidateClass="MKMapView"/>
+                <relationship kind="outlet" name="myTapGestureRecognizer" candidateClass="UITapGestureRecognizer"/>
+            </relationships>
+        </class>
+    </classes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination"/>
+    </simulatedMetricsContainer>
+</document>
