@@ -191,7 +191,7 @@
 }
 
 - (BOOL) shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation {
-    return (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
+    return (interfaceOrientation != UIInterfaceOrientationLandscapeRight &&  interfaceOrientation != UIInterfaceOrientationLandscapeLeft);
 }
 
 #pragma Tap Gesture Recognizer

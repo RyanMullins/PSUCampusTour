@@ -50,7 +50,13 @@ while (<>) {
 		print "    <Polygon>\n";
 		print "        <altitudeMode>clampToGround</altitudeMode>\n";
 		print "        <outerBoundaryIs><LinearRing><coordinates>\n";
-		print "            $p1[1],$p1[0] $p2[1],$p2[0] $p3[1],$p3[0] $p4[1],$p4[0] $p5[1],$p5[0] $p6[1],$p6[0] $p1[1],$p1[0]\n";
+		print "            $p1[1],$p1[0]\n";
+		print "            $p2[1],$p2[0]\n";
+		print "            $p3[1],$p3[0]\n";
+		print "            $p4[1],$p4[0]\n";
+		print "            $p5[1],$p5[0]\n"; 
+		print "            $p6[1],$p6[0]\n"; 
+		print "            $p1[1],$p1[0]\n";
 		print "        </coordinates></LinearRing></outerBoundaryIs>\n";
 		print "    </Polygon>\n";
 		print "</Placemark>\n";

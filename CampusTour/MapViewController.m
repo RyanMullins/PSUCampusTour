@@ -17,7 +17,7 @@
 #define N_SPAN_ANN0_LON 0.008006
 #define N_SPAN_OVER_LAT 0.013800
 #define N_SPAN_OVER_LON 0.013600
-#define N_POINT_BOUND_DIM 40
+#define N_POINT_BOUND_DIM 20
 
 #define S_SEGUE_MAP_BUILDING @"mapToBuilding"
 
@@ -82,9 +82,17 @@
     }
 }
 
+- (BOOL) shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)toInterfaceOrientation {
+    return (toInterfaceOrientation != UIInterfaceOrientationLandscapeRight &&  toInterfaceOrientation != UIInterfaceOrientationLandscapeLeft);
+}
+
 #pragma MapView Delegate Methods
 
 - (MKAnnotationView *) mapView:(MKMapView *)mapView viewForAnnotation:(id<MKAnnotation>)annotation {
+    if (annotation == [[self myMapView] userLocation]) {
+        return nil;
+    }
+    
     MKPinAnnotationView * bldgPinView = (MKPinAnnotationView *)[mapView dequeueReusableAnnotationViewWithIdentifier:RI_BLDG_PIN];
     
     if (!bldgPinView) {
