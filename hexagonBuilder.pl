@@ -20,6 +20,7 @@ print "<kml xmlns=\"http://www.opengis.net/kml/2.2\">\n";
 print "<Document>\n";
 print "<Style id=\"transBluePoly\">\n";
 print "    <LineStyle>\n";
+print "        <color>ffffffff</color>"
 print "        <width>4</width>\n";
 print "    </LineStyle>\n";
 print "    <PolyStyle>\n";
