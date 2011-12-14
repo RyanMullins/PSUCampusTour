@@ -147,12 +147,14 @@
         }
     }
     
+    [[cell textLabel] setNumberOfLines:0];
     [[cell textLabel] setText:title];
+    [[cell detailTextLabel] setNumberOfLines:0];
     [[cell detailTextLabel] setText:subtitle];
 }
 
 - (CGFloat) tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
-    return 60;
+    return 90;
 }
 
 - (NSString *) tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section {
