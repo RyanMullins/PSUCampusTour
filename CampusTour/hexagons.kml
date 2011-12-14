@@ -3,7 +3,7 @@
 <Document>
 <Style id="transBluePoly">
     <LineStyle>
-        <width>4</width>
+        <color>ffffffff</color>        <width>2</width>
     </LineStyle>
     <PolyStyle>
         <color>7dff0000</color>
